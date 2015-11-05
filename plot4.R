@@ -12,7 +12,7 @@ my_locale <- Sys.getlocale("LC_ALL")
 Sys.setlocale("LC_ALL", "English")
 ############
 
-## coercing, setting the parameter, making the plot and saving to png
+## Coercing, setting the parameter, making the plot and saving to png
 
 datetime <- strptime(paste(subSetData$Date, subSetData$Time, sep=" "), "%d/%m/%Y %H:%M:%S") 
 globalActivePower <- as.numeric(subSetData$Global_active_power)
